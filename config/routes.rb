@@ -1,3 +1,4 @@
 Rails.application.routes.draw do
-  get '/products/index', to: 'products#index'
+  get '/', to: 'products#index'
+  post '/', to: 'products#add'
 end
